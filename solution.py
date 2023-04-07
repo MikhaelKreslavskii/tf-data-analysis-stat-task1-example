@@ -8,5 +8,5 @@ def solution(x: np.array) -> float:
     t=10
     n=len(x)
     v=x
-    m=(1/n)* np.sum((v/y)**2)
-    return m # Ваш ответ
+    a=2*((min(x)+41)//100)
+    return a # Ваш ответ
